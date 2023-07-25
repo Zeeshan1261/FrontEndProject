@@ -1,9 +1,9 @@
 
 import React from 'react';
-
+import { Button } from '@mui/material';
 function Shoes({fetch}) {
 
-const addToCartHandler = ()=> {
+const addToCartHandler = (data)=> {
 
 }    
 
@@ -19,7 +19,10 @@ return(
 </div>
 <h2 className='product-price' ><span></span> ${data.price}</h2>
 <h3 className='product-description'> {data.shoetype}</h3>
-<button className='product-btn' onClick={addToCartHandler(data)}>Add To Cart</button>
+{/* <button className='product-btn' onClick={addToCartHandler(data)}>Add To Cart</button> */}
+<Button onClick={addToCartHandler(data)} className='product-btn' variant="contained" disableElevation>
+AddToCart
+</Button>
 </div>
 )
 })}
