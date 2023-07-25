@@ -1,0 +1,52 @@
+.data{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 3rem;
+padding: 10px;
+}
+
+.container{
+  margin-top: 2.5rem;
+max-width: 25rem;
+
+
+}
+
+.product-header{
+font-family: sans-serif;
+font-weight: 1000;
+text-decoration: overline;
+max-width: 30rem;
+}
+
+.product-category{
+font-family: 'Courier New', Courier, monospace;
+color: gray;
+}
+
+.product-price{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-top: 1rem;
+margin-left: 6.5rem;
+}
+
+.product-description{
+line-height: 2;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.product-btn{
+padding:10px 15px ;
+  border-radius: 10px;
+background-color: green;
+border: none;
+cursor: pointer;
+color: whitesmoke;
+margin-left: 5rem;
+}
+
+.product-btn:hover{
+background-color: orange;
+color: black;
+}
