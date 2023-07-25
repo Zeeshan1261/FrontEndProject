@@ -6,6 +6,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Cart from './Components/Cart';
 import Navbar from './Components/Navbar';
 import Navbars from './Components/Navbar';
+import Search from './Components/Search';
 
 
 function App() {
@@ -23,6 +24,7 @@ console.log(fetch);
 return (
 <>
 <Navbars/>
+<Search/>
 <BrowserRouter>
 <Routes >
 <Route  path='/' element={<Shoes fetch={fetch}/>}/>
