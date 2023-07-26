@@ -2,8 +2,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
 function Navbars() {
 
 
@@ -24,25 +22,16 @@ navbarScroll
 {/* <Nav.Link href="/cart">Cart</Nav.Link> */}
 <Nav.Link href="/login">Login</Nav.Link>
 
-<Nav.Link href="#" >
-CustomerCare
-</Nav.Link>
 
 </Nav>
-
-<NavDropdown title="ViewMore" id="navbarScrollingDropdown">
-<NavDropdown.Item href="#action3">Categories</NavDropdown.Item>
-<NavDropdown.Item href="#action4">
-Buisness Enquiry
-</NavDropdown.Item>
-<NavDropdown.Divider />
-<NavDropdown.Item href="#action5">
-Our Locations
-</NavDropdown.Item>
-</NavDropdown>
-<Nav.Link style={{paddingLeft:"1rem"}} >
-SignUp
+<Nav.Link href="/cart"  >
+Cart
 </Nav.Link>
+<Nav.Link href='/signup' style={{paddingLeft:"3rem"}} >
+SignUp
+</Nav.Link> 
+
+
 </Navbar.Collapse>
 </Container>
 </Navbar>

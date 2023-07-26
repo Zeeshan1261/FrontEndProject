@@ -1,8 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import React,{ useEffect, useState}from 'react';
-import RenderData from './RenderData';
-import Set from './Set';
+import RenderData from './Data/RenderData';
+import Set from './skeleton/Set';
 function Shoes({fetch}) {
 
 const[copydata,setCopyData] = useState([]);
