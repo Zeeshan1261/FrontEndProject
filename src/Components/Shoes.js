@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import React,{ useEffect, useState}from 'react';
 import RenderData from './Data/RenderData';
 import Set from './skeleton/Set';
+import Carousels from './Carousel/Carousels';
 function Shoes({fetch}) {
 
 const[copydata,setCopyData] = useState([]);
@@ -28,7 +29,9 @@ setCopyData(storedData)
 
 return(
 <>
+<Carousels/>    
 <h1 className='header'>A Wide varierty of Shoes with Cheap Prices ,Order Now</h1>
+
 <Form style={{marginLeft:"12rem"}} className="d-flex justify-content-center align-items-center   mt-4 mb-3  col-lg-8" >
 <Form.Control style={{padding:"0.5rem"}}
 onChange={(e)=> changeData(e.target.value)}

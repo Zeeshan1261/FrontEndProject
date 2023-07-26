@@ -8,8 +8,8 @@ function Navbars() {
 return (
 
 
-<Navbar  expand="lg" className="bg-body-tertiary" >
-<Container  style={{background:'orange'}} className='pt-3 pb-3 '  fluid>
+<Navbar  expand="lg" className="bg-body-tertiary" style={{marginTop:"0",marginBottom:"0",gap:0}} >
+<Container  style={{background:'#2578fb'}} className='pt-3 pb-3 '  fluid>
 <Navbar.Brand href='/'>Shoez.com</Navbar.Brand>
 <Navbar.Brand href="/">Home</Navbar.Brand>
 <Navbar.Toggle aria-controls="navbarScroll" />

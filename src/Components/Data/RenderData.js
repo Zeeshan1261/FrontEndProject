@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button';
 function RenderData({fetch}) {
 
 const addToCartHandler = (data)=> {
+
 }    
 
 return (
