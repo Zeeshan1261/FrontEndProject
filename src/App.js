@@ -4,13 +4,10 @@ import { useState,useEffect } from 'react';
 import Shoes from './Components/Shoes';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Cart from './Components/Cart';
-import Navbar from './Components/Navbar';
-import Navbars from './Components/Navbar';
-import Search from './Components/Search';
-
+import Navbars from './Components/Navbars';
+import Login from './Components/Login';
 
 function App() {
-
 
 const [fetch,setFetch] = useState([]);
 
@@ -23,12 +20,13 @@ console.log(fetch);
 
 return (
 <>
-<Navbars/>
-<Search/>
-<BrowserRouter>
+<Navbars  />
+{/* <Search/> */}
+<BrowserRouter >
 <Routes >
 <Route  path='/' element={<Shoes fetch={fetch}/>}/>
 <Route path='/cart' element={<Cart/>}/>
+<Route path='/login' element={<Login/>}/>
 </Routes>
 </BrowserRouter>
 </>
