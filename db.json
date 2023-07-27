@@ -7,6 +7,7 @@
       "title": "Nike Shoes",
       "category": "FootWear",
       "shoetype":"Partyware",
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Turn styles on its head with this crafted take on the Air Jordan 1 Mid  Its inside out-inspired construction, including  unique layering and exposed foam accents , ups the ante on this timeless Jordan Brand silhouette.  Details like the deco stitching on the Swoosh add coveted appeal, while the unexpected shading, rich mixture of materials and aged midsole aesthetic give this release an artisan finish.  "
     },
     {
@@ -16,7 +17,7 @@
       "title": "Sneaker's Shoes ",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Care Instruction: Rotate Your Pair Of Shoes Once Every Other Day, Allowing Them To De-Odorize And Retain Their Shapes. Use Shoe Bags To Prevent Any Stains Or Mildew. Just Wipe With Clean, Dry Cloth To Remove Dirt. Do Not Keep Them In Plastic Bags Or Airtight Boxes?"
     },
     {
@@ -26,7 +27,7 @@
       "title": "All Star Sneaker",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "A pair of round-toed, navy blue casual shoes with central lace-ups and high top styling Canvas upper with metallic eyelets, overlay and stitched detail, branding on one side and a reinforced heel collar Soft tongue and textile lining Cushioned footbed with branding on the heel, has a comfort insole  Thick midsole with foxing on the forefoot and branding on the backfoot  Textured, rubber outsole with patterned grooves  Warranty: 3 months for manufacturing defects"
     },
     {
@@ -35,8 +36,8 @@
       "price": "96",
       "title": "Rebook",
       "category": "FootWear",
-      "shoetype":"Partyware",
-
+      "shoetype":"Casual",
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Closure: Lace-Up Shoe Width: Medium Women's Running Shoes"
     },
     {
@@ -45,8 +46,8 @@
       "price": "30",
       "title": "Mochi's Shoes",
       "category": "FootWear",
-      "shoetype":"gym's Running",
-
+      "shoetype":"gym",
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Mochi is a one-stop shop for all fashion footwear need along with a wide assortment of shoes, handbags, belts, socks, mobile cases, foot care, and shoe care products. The footwear options are versatile and befitting every occasion. The high-octane atmosphere in the stores, hands-on staff and the various options to choose from further makes the shopping experience an enjoyable experience."
     },
     {
@@ -55,8 +56,8 @@
       "price": "42",
       "title": "HYPERFLO",
       "category": "FootWear",
-      "shoetype":"Athletics",
-
+      "shoetype":"Causal",
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "HYPERFLO strives to bring innovation and inspiration to everybody that loathes staying still. Crafted with Engineered Mesh for you to move freely while enjoying the benefits of maximum breathability and comfort. A freshly developed innovative and supportive lace-cage system assures an extra secure fit to take you to the next level, and beyond! While our sole cushioning"
     },
     {
@@ -65,8 +66,8 @@
       "price": "61",
       "title": "RYDEFOAM",
       "category": "FootWear",
-      "shoetype":"Partyware",
-
+      "shoetype":"Casual",
+      "rating":"⭐⭐⭐⭐⭐",
       "description": " RYDEFOAM will help you experience softer landings while providing a stable platform for expressing yourself in multiple environments across several activities."
     },
     {
@@ -75,8 +76,8 @@
       "price": "120",
       "title": "Versatile",
       "category": "FootWear",
-      "shoetype":"Partyware",
-
+      "shoetype":"Causal",
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "This versatile design is an embodiment of our design philosophy, a harmonious fusion between the world of sports and fashion."
     },
     {
@@ -85,8 +86,8 @@
       "price": "150",
       "title": "DayScape",
       "category": "FootWear",
-      "shoetype":"Partyware",
-
+      "shoetype":"Casual" ,
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Dayscape is built to be minimal yet radical – it delivers lightweight comfort that’s so easy to wear and brings limitless possibilities to your day Our trademark RYDEFOAM™ midsole gives a supremely soft and cushioned experience in every step. "
     },
     {
@@ -96,7 +97,7 @@
       "title": "RYDEFOAM",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "RYDEFOAM will help you experience softer landings while providing a stable platform for expressing yourself in multiple environments across several activities."
     },
     {
@@ -106,7 +107,7 @@
       "title": "RACER",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "The ARC RACER is made using RYDEFOAM®. Made with eTPU, the world’s most innovative, comfortable and responsive sole material. The AEROKNIT® upper gives you all-day comfort & flexibility."
     },
     {
@@ -116,7 +117,7 @@
       "title": "Men Shoes ",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Need something for your daily runs or a pair that provides comfort all day long? Look no further. Introducing the Cultsport Windblazer. With a German engineered insole, these runners give you the cushioning and rebound you need. An 8mm heel to toe drop, and an overall combination of durability and support these shoes make every run a smooth one. A must have for the everyday athlete!"
     },
     {
@@ -125,8 +126,8 @@
       "price": "425",
       "title": "SportLight SleepOn's",
       "category": "FootWear",
-      "shoetype":"Partyware",
-
+      "shoetype":"Casual",
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Meet your new footwear staple, the Spotlight Slip Ons that deliver unbeatable comfort, a versatile silhouette, and a design that adapts to every foot, all without the fuss of tying laces. What makes it even better? It’s made from recycled plastic bottles."
     },
     {
@@ -136,7 +137,7 @@
       "title": "RS-X Reinvention Sneakers",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "One of the first running shoe models to focus on the technical aspects of the sport in addition to the"
     },
     {
@@ -146,7 +147,7 @@
       "title": "Scorch Runner V2 Men's Shoes",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Ring in the new season with Style with a pair of PUMA shoes perfect to make this summer, better !"
     },
     {
@@ -156,7 +157,7 @@
       "title": "PUMA x KL Vegas 2.0 Men's Sneakers",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Ring in the new season with Style with a pair of PUMA shoes perfect to make this summer, better !  Style: 394420_02 Color PUMA White-Desert Clay-PUMA Black"
     },
     {
@@ -166,7 +167,7 @@
       "title": "one8 Fuse 2.0 Camo Training Shoes",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "The second iteration of our fierce Fuse franchise incorporates insights from athletes and the running"
     },
     {
@@ -176,7 +177,7 @@
       "title": "TRC Blaze Memphis Sneakers Shoes",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Back in the ‘90s, Trinomic brought a whole new angle to sneaker technology, with a focus on cushioning,"
     },
     {
@@ -185,8 +186,8 @@
       "price": "121",
       "title": "Gray Sneakers",
       "category": "FootWear",
-      "shoetype":"Partyware",
-
+      "shoetype":"Casual",
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Ring in the new season with Style with a pair of PUMA shoes perfect to make this summer, better !"
     },
     {
@@ -196,7 +197,7 @@
       "title": "Duke Men's ",
       "category": "FootWear",
       "shoetype":"Partyware",
-
+      "rating":"⭐⭐⭐⭐⭐",
       "description": "Introducing the Duke Men's Shoes, Propels you to greater milestones with its sleek, agile."
     }
   ],
