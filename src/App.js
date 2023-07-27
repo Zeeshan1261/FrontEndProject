@@ -1,4 +1,4 @@
-import React,{ useState,useEffect } from 'react';
+import React,{ useState,useEffect,createContext } from 'react';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
 import axios from 'axios';
@@ -8,7 +8,6 @@ import Navbars from './Components/navbar/Navbars';
 import Login from './Components/Forms/Login';
 import Signup from './Components/Forms/Signup';
 import Footer from './Components/Footer/Footer';
-
 
 function App() {
 
@@ -20,13 +19,14 @@ axios.get('http://localhost:3001/posts')
 },[])
 
 console.log(fetch);
+const[cart,setCart] = useState('');
 
 return (
 <>
 <Navbars  />
 <BrowserRouter >
 <Routes >
-<Route  path='/' element={<Shoes fetch={fetch}/>}/>
+<Route  path='/' element={<Shoes fetch={fetch} cart={cart} setCart={setCart}/>}/>
 <Route path='/cart' element={<Cart/>}/>
 <Route path='/login' element={<Login/>}/>
 <Route path='/signup' element={<Signup/>}/>

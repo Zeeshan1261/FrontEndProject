@@ -3,19 +3,22 @@ display: grid;
 grid-template-columns: repeat(3,1fr);
 gap: 3rem;
 padding: 10px;
-font-size: 1rem;
 }
 
 .header{
-  text-align: center;
+text-align: center;
   margin-bottom: 1rem;
 }
 .container{
 max-width: 25rem;
-
+}
+.product-btn  {
+color: #000;
+transition: 1s;
 }
 .product-btn:hover{
-color: #000;
+transition: 1s;
+background-color: black ;
 }
 
 
@@ -51,4 +54,8 @@ bottom: 3rem;
   position: absolute  ;
 bottom: 1rem;
 font-size: 1rem;
+}
+
+.data{
+/* background-image: url('../public/background.png'); */
 }

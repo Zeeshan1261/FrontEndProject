@@ -5,7 +5,7 @@ import Set from './skeleton/Set';
 import Carousels from './Carousel/Carousels';
 import Filter from './Filter/Filter';
 import Button from './Buttons/Button';
-function Shoes({fetch}) {
+function Shoes({fetch,cart,setCart}) {
 
 const[copydata,setCopyData] = useState([]);
 
@@ -62,7 +62,7 @@ onChange={(e)=> changeData(e.target.value)}
 onFocus={(e)=>changeData(e.target.value)} type="text" placeholder="Search Shoes" className="me-2" aria-label="Search"/>
 </Form>
 <Filter filterValueSelected={filterValueSelected}/>
-{copydata && copydata.length ?  <RenderData filter={filteredProduct}  fetch={copydata}/>:<Set fetch={fetch}/>}
+{copydata && copydata.length ?  <RenderData  cart={cart} setCart={setCart} filter={filteredProduct}  fetch={copydata}/>:<Set fetch={fetch}/>}
 {/* <RenderData fetch={copydata}/> */}
 </>
 )

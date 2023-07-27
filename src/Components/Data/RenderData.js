@@ -2,11 +2,12 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button';
-function RenderData({fetch,filter}) {
+function RenderData({fetch,filter,cart,setCart}) {
 
-const addToCartHandler = (data)=> {
+const addToCartHandler = (recieve)=> {
 
 }    
+
 
 return (
 <div className='data'>

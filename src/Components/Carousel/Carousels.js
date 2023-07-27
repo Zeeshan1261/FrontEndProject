@@ -1,4 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
+
 function Carousels() {
   return (
     <Carousel data-bs-theme="dark" style={{marginBottom:"2rem",height:"525px"}} >
@@ -10,7 +12,7 @@ function Carousels() {
           style={{marginBottom:"1rem"}}
         />
         <Carousel.Caption>
-          
+    <Button variant="secondary">ExploreNow</Button>
           {/* <h5>First </h5> */}
           {/* <p>Paragraph</p> */}
         </Carousel.Caption>
