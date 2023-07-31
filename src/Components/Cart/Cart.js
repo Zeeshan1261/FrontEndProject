@@ -1,13 +1,14 @@
+import React from "react";
 
-import React from 'react';
+function Cart({get}) {
+  console.log(get);
+  return (
+    <div>
+      <h1>Cart Items</h1>
+ 
 
-function Cart() {
-
-return(
-<div>
-<h1>No items inside your cart </h1>
-</div>
-)
+    </div>
+  );
 }
 
 export default Cart;
