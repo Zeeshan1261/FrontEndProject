@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import { Link } from "react-router-dom";
 
-export default function ButtonSizes() {
+
+
+export default function ButtonSizes({ data }) {
+  const [userName, setUserName] = useState("");
+  const [password, setPassword] = useState("");
+  console.log(data);
+
+
+  const loginHandler = () => {
+    if (userName === "" && password === "") {
+      return alert("Please enter your username and password");
+    } else if (userName === data.username && password === data.password) {
+      return alert("login sucessfully");
+    }
+    else return alert('please enter valid data')
+  };
+
   return (
     <>
       <div className="login-container">
@@ -21,6 +37,7 @@ export default function ButtonSizes() {
             id="outlined-basic"
             label="Username"
             variant="outlined"
+            onChange={(e) => setUserName(e.target.value)}
           />
           <TextField
             type="password"
@@ -28,6 +45,7 @@ export default function ButtonSizes() {
             id="filled-basic"
             label="Password"
             variant="filled"
+            onChange={(e) => setPassword(e.target.value)}
           />
           <Button
             style={{
@@ -38,6 +56,8 @@ export default function ButtonSizes() {
             }}
             variant="contained"
             size="large"
+            // onClick={() => loginHandler()}
+            onClick={() => loginHandler()}
           >
             LOGIN
           </Button>

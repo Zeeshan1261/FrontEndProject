@@ -1,29 +1,42 @@
 import React,{useState} from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+// import { useParams } from "react-router-dom";
+// import Signup from '../Forms/Signup'
 function RenderData({ fetch, filter,cart,setCart,setGet}) {
 
 
-const [addedItem,setAddedItem] = useState([])
+const [addedItem,setAddedItem] = useState([]);
+
+
+
 const cartItems = (recieve)=> {
 setAddedItem((prev)=> [...prev,recieve])
 console.log(addedItem);
+};
+
+
+// const {id} = useParams();
+const productDetailsHandler = ()=> {
+// alert('loading product details')
 }
-setGet(addedItem)
+// setGet(addedItem)
+
   return (
     <div className="data">
-      {/* <Cart addedItem={addedItem}/> */}
+{/* <Cart addedItem={{addedItem}} /> */}
       {fetch.map((data, i) => {
         return (
-          <Card className="card-main">
+          <Card className="card-main " onClick={()=> productDetailsHandler()}  >
             <Card.Img
               variant="top"
               className="product-image hove"
               alt="shoesPhoto"
               src={data.image}
-              width={100}
+              width={50}
               height={250}
             />
+
             <Card.Body className="container" key={i}>
               <div className="rating-container">
                 <h5 className="rating">Rating</h5>
@@ -44,7 +57,10 @@ setGet(addedItem)
                 onClick={()=> cartItems(data)}
               >
                 AddToCart
+
               </Button>
+
+
             </Card.Body>
           </Card>
         );
@@ -53,4 +69,3 @@ setGet(addedItem)
   );
 }
 export default RenderData;
-

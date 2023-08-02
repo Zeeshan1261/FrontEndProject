@@ -5,7 +5,7 @@ import Set from "./skeleton/Set";
 import Carousels from "./Carousel/Carousels";
 import Filter from "./Filter/Filter";
 import Button from "./Buttons/Button";
-function Shoes({ fetch, cart, setCart,addToCart ,setGet}) {
+function Shoes({ fetch,addToCart ,setGet}) {
 
 
 const [copydata, setCopyData] = useState([]);
@@ -72,8 +72,7 @@ let filteredProduct = fetch.filter((product) => {
       <Filter filterValueSelected={filterValueSelected} />
       {copydata && copydata.length ? (
         <RenderData
-          cart={cart}
-          setCart={setCart}
+          
           filter={filteredProduct}
           fetch={copydata} 
           addTocart={addToCart}

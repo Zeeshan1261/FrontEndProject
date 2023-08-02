@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 
 function Carousels() {
   return (
-    <Carousel
+    <Carousel className="carousel-responsive"
       data-bs-theme="dark"
       style={{ marginBottom: "2rem", height: "525px" }}
     >

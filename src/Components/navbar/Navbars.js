@@ -37,7 +37,7 @@ function Navbars() {
             <Navbar.Brand href="/">ContactUs</Navbar.Brand>
             <Nav.Link href="/login">Login</Nav.Link>
           </Nav>
-          <Nav.Link href="/cart">Cart</Nav.Link>
+          <Nav.Link href="/cart" >Cart</Nav.Link>
           <Nav.Link href="/signup" style={{ paddingLeft: "3rem" }}>
             SignUp
           </Nav.Link>
