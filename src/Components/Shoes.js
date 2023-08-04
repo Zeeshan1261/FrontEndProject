@@ -3,27 +3,26 @@ import React, { useEffect, useState } from "react";
 import RenderData from "./Data/RenderData";
 import Set from "./skeleton/Set";
 import Carousels from "./Carousel/Carousels";
-import Filter from "./Filter/Filter";
+// import Filter from "./Filter/Filter";
 import Button from "./Buttons/Button";
 function Shoes({ fetch,addToCart ,setGet}) {
 
 
 const [copydata, setCopyData] = useState([]);
 
-const [selectedFilter, setSelectedFilter] = useState("Categories");
+// const [selectedFilter, setSelectedFilter] = useState("Categories");
 
-let filteredProduct = fetch.filter((product) => {
-    if (selectedFilter === "PartyWare") {
-      return product.shoetype === "Partyware";
-    } else if (selectedFilter === "Casual") {
-      return product.shoetype === "Casual";
-    } else if (selectedFilter === "GYM") {
-      return product.shoetype === "gym";
-    } else {
-      return product;
-    }
-  });
-  // let filteredProduct = filterSelected.filter()
+// let filteredProduct = fetch.filter((product) => {
+//     if (selectedFilter === "PartyWare") {
+//       return product.shoetype === "Partyware";
+//     } else if (selectedFilter === "Casual") {
+//       return product.shoetype === "Casual";
+//     } else if (selectedFilter === "GYM") {
+//       return product.shoetype === "gym";
+//     } else {
+//       return product;
+//     }
+//   });
   useEffect(() => {
     setTimeout(() => {
       setCopyData(fetch);
@@ -42,21 +41,22 @@ let filteredProduct = fetch.filter((product) => {
     }
   };
 
-  const filterValueSelected = (filterValue) => {
-    setSelectedFilter(filterValue);
-  };
+  // const filterValueSelected = (filterValue) => {
+  //   setSelectedFilter(filterValue);
+  // };
+
 
   return (
     <>
       <Carousels />
-      <h1 className="header">
-        A Wide varierty of Shoes with Cheap Prices ,Order Now
-      </h1>
+        <h1 className="header">
+          A Wide varierty of Shoes with Cheap Prices ,Order Now
+        </h1>
       <Button />
 
       <Form
         style={{ marginLeft: "12rem" }}
-        className="d-flex justify-content-center align-items-center   mt-4 mb-3  col-lg-8"
+        className="d-flex justify-content-center align-items-center   mt-4 mb-3  col-lg-8 new"
       >
         <Form.Control
           style={{ padding: "0.5rem" }}
@@ -64,16 +64,16 @@ let filteredProduct = fetch.filter((product) => {
           // onBeforeInput={}
           onFocus={(e) => changeData(e.target.value)}
           type="text"
-          placeholder="Search Shoes"
+          placeholder="🔍Search Shoes "
           className="me-2"
           aria-label="Search"
         />
       </Form>
-      <Filter filterValueSelected={filterValueSelected} />
+      {/* <Filter className='filter' filterValueSelected={filterValueSelected} /> */}
       {copydata && copydata.length ? (
         <RenderData
           
-          filter={filteredProduct}
+          // filter={filteredProduct}
           fetch={copydata} 
           addTocart={addToCart}
           setGet={setGet}

@@ -15,8 +15,6 @@ export default function ButtonSizes() {
 
   const navigate = useNavigate();
 
-
-
   const handleFormSubmit = (e) => {
 
 
@@ -39,10 +37,11 @@ export default function ButtonSizes() {
 }
   return (
     <>
-      <div className="login-container">
-        
+      
+<div className="signup-container">
 
-        <h1>Welcome ,Register&Signup to Shoez.com </h1>
+
+        <h1>Register&Signup to Shoez.com </h1>
         <Box
           component="form"
           sx={{ "& > :not(style)": { m: 1, width: "25ch" } }}
@@ -126,6 +125,7 @@ export default function ButtonSizes() {
             size="large"
             onClick={() => handleFormSubmit()}
           >
+            
             SignUp
           </Button>
         </Box>

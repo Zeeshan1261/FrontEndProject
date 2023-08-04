@@ -23,9 +23,9 @@ export default function ButtonSizes({ data }) {
 
   return (
     <>
-      <div className="login-container">
+      <div className="login-container ">
         <h1>Login to Shoes.com </h1>
-        <Box
+        <Box className="form"
           component="form"
           sx={{ "& > :not(style)": { m: 1, width: "25ch" } }}
           noValidate
@@ -38,6 +38,7 @@ export default function ButtonSizes({ data }) {
             label="Username"
             variant="outlined"
             onChange={(e) => setUserName(e.target.value)}
+            className="login-input"
           />
           <TextField
             type="password"
@@ -46,11 +47,13 @@ export default function ButtonSizes({ data }) {
             label="Password"
             variant="filled"
             onChange={(e) => setPassword(e.target.value)}
+            className="login-input"
+            
           />
           <Button
             style={{
               marginTop: "1rem",
-              marginLeft: "5rem",
+              marginLeft: "2rem",
               marginBottom: "2rem",
               width: "10 rem",
             }}
@@ -58,11 +61,12 @@ export default function ButtonSizes({ data }) {
             size="large"
             // onClick={() => loginHandler()}
             onClick={() => loginHandler()}
+            className="lgn-btn"
           >
             LOGIN
           </Button>
         </Box>
-        <h1 style={{ fontFamily: "sans-serif" }}>
+        <h1 style={{ fontFamily: "sans-serif",fontSize:"20px" }}>
           New to Shoez.com,Register
           <span style={{ fontSize: "5rem" }}>↓</span>
         </h1>

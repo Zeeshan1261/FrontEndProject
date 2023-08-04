@@ -7,9 +7,9 @@ function Carousels() {
       data-bs-theme="dark"
       style={{ marginBottom: "2rem", height: "525px" }}
     >
-      <Carousel.Item style={{ width: "80rem", height: "30rem" }}>
+      <Carousel.Item className="carousel" style={{ width: "80rem", height: "30rem" }}>
         <img
-          className="w-100"
+          className="w-100 img-responsive"
           src="one.avif"
           alt="First slide"
           style={{ marginBottom: "1rem" }}
@@ -21,7 +21,7 @@ function Carousels() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item style={{ width: "80rem", height: "30rem" }}>
-        <img className="d-block w-100" src="caro.jpg" alt="Second slide" />
+        <img className="d-block w-100 img-responsive" src="caro.jpg" alt="Second slide" />
         <Carousel.Caption>
           {/* <h5>Second slide label</h5> */}
           {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
@@ -29,7 +29,7 @@ function Carousels() {
       </Carousel.Item>
       <Carousel.Item style={{ width: "80rem", height: "30rem" }}>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-responsive"
           src="carouseltwo.avif"
           alt="Third slide"
         />

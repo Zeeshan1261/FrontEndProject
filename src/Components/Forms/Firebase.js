@@ -24,15 +24,15 @@ export default function Firebase() {
 
   const getUserData = (e) => {
     name = e.target.name;
-    value = e.target.value
-    setUser({...user,[name]:value})
+    value = e.target.value;
+    setUser({ ...user, [name]: value });
   };
 
   const handleClickShowPassword = () => setShowPassword((show) => !show);
   const handleMouseDownPassword = (event) => {
-  event.preventDefault();
-};
-console.log(user);
+    event.preventDefault();
+  };
+  console.log(user);
   return (
     <Box sx={{ display: "flex", flexWrap: "wrap" }}>
       <div>
@@ -45,8 +45,8 @@ console.log(user);
               <InputAdornment position="start">Name</InputAdornment>
             ),
           }}
-          value={user.name}
-          onChange={getUserData}
+        //   value={user.name}
+        //   onChange={getUserData}
         />
         <FormControl
           sx={{ m: 1, width: "25ch" }}
@@ -55,8 +55,8 @@ console.log(user);
         <FormControl sx={{ m: 1, width: "25ch" }} variant="outlined">
           <InputLabel
             htmlFor="outlined-adornment-password"
-            onChange={getUserData}
-            value={user.password}
+            // onChange={getUserData}
+            // value={user.password}
           >
             setPassword
           </InputLabel>
@@ -76,6 +76,8 @@ console.log(user);
               </InputAdornment>
             }
             label="setPassword"
+            value={user.password}
+            onChange={getUserData}
           />
 
           <TextField

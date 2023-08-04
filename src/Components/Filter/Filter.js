@@ -6,14 +6,14 @@ function Filter({ filterValueSelected }) {
   };
 
   return (
-    <div>
+    <>
       <select onChange={optionFilter} className="selector">
         <option>Categories</option>
         <option>PartyWare</option>
         <option>Casual</option>
         <option>GYM</option>
       </select>
-    </div>
+    </>
   );
 }
 

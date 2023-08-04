@@ -88,13 +88,14 @@ const ImageMarked = styled("span")(({ theme }) => ({
 
 export default function Button() {
   return (
-    <Box
+    <Box  className='btn-one'
       sx={{ display: "flex", flexWrap: "wrap", minWidth: 300, width: "100%" }}
     >
       {images.map((image) => (
         <ImageButton
           focusRipple
           key={image.title}
+          
           style={{
             width: image.width,
           }}
